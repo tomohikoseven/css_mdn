@@ -18,6 +18,13 @@ h1 {
   margin: 0;
 }
 
+/* フレックスコンテナ */
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+/* フレックスアイテム */
 article {
   padding: 10px;
   margin: 10px;
